@@ -1,0 +1,98 @@
+Códigos Fontes:
+
+**Tags(Todos os comandos que ficam dentro de <....>):
+
+<Head> Tudo aquilo que não aparece.
+
+<Body> Tudo aquilo que aparece (Imagens, Fontes, Etc).
+
+<H1> Maior título que uma página pode ter, questão de priopirade, quanto maior o H (EX? H1, H2, H3) menor a prioridade, o limite é até H6.
+
+<!--Isso serve para anotações enquanto progama para não se perder-->.
+
+<P> Paragráfo. 
+
+<BR/> Quebra de linhas (uma das poucas tags que não precisa fechar nem abir).
+
+<b> Negrito.
+
+<Strong> Negrito (Mais usado).
+
+<i> Italico.
+
+<em> Italico.
+
+<Strong><em> Fica em negrito e italico </em></strong>.
+
+<ul> Lista não ordenada (Bolinhas Prestas).
+<ol> Lista ordenada (Numérica).
+ <li> Itens da lista.
+
+<Table> Tabela.
+<th> Cabeçalho da Tabela (Em negrito).
+<tr> Linha da tabela.
+<td> Representa o conteúdo das linhas da tabela.
+
+<video controls> Cria player de vídeo.
+<source src="....." type="....."> Directório e formato do arquivo.
+
+<audio controls> Cria player de Aúdio.
+<source="....." type="....."> Directório e formato do arquivo.
+
+<a href="link ou nome de página interna">Nome da Função</a> Cria link para outra página (interna ou externa)
+
+<form> Formulário.
+ <fieldset> Separação visual do formulário
+  <legend> Legenda.
+  <input> Entrada de valor.
+  <label> maracação para indicar o nome do campo.
+  <slect> Cria caixa de seleção
+    <option> Opção ou intem a ser selecionado dentro da caixa de seleção
+  <textarea> cria area para criar opbervação dentro do formulário
+OBS:
+
+
+**Atibutos(Ficam dentro das Tags):
+
+<Table border="1"> Cria borda para tabela.
+
+<td colspan="4"> Mesclar colunas de uma linha (4).
+
+<td rowspan="2"> Mescla linhas de uma coluna (2).
+
+<video controls autoplay> autoplay no player de vídeo.
+
+<video controls autoplay> autoplay no player de aúdio.
+
+<form method="GET"> Transmite as informções de forma explicita na URL.
+
+<form method="Post"> Trasmite as informações de forma oculta na URL(Um Login e Senha por exemplo).
+
+<forme action="...> Destino das informações (uma outra página).
+
+<option value="..."> Valor a ser definido
+
+<input name="..."> Se for enviado através do método GET o campo o "name" define o nome que irá aparecer na URL.
+<input type="..."> input type para definir o tipo de entrada. 
+ <input type="number"> entrada de números em formulários(<form>) por exemplo.
+ <input type="submit"> botão.
+ <input type="text"> Texto
+ <input type="date"> Data
+ <input type="email"> E-mail
+ <input type="password"> Senha
+ <input type="Telefone"> Telefone
+ <input type="Hidden"> Informação oculta
+ <input type="radio"> Bolinha de seleção 
+ <input type="checkbox"> Campo com "Seta" de confirmação 
+ <inpute type="file"> Upload de arquivo
+<inpute id="..."> Só pode exister um ID (Nome do comando código em especifico).
+<Inpute placeholder"..."> Legenda que fica quando a caixinha de resposta está em branco.
+<inpute required> Não irá enviar as respostas se algum campo estiver em branco.
+
+                                    
+
+
+
+
+
+

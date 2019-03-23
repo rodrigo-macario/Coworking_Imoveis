@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title></title> 
+    </head> 
+    <body> 
+        <form method="GET" action="resultado do formulario.html">
+        	<fieldset>
+  				<legend>Cadastro de pessoa física</legend>
+
+  				<label for="txtID">ID:</label>
+  				<input type="number" name="txtID" id="txtID" />
+
+  				<label for="txtNome">Nome:</label>
+  				<input type="text" name="txtNome" id="txtNome" />
+
+  				<label for="txtDtNascimento">Data de Nascimento:</label>
+  				<input type="datetime-local" name="txtDtNascimento" id="txtDtNascimento" />
+
+  				<label>Sexo:</label>
+  				<input type="radio" name="rblSexo" id="rblSexoMasculino" value="M" checked="checked" />
+  				<label for="rblSexoMasculino">Masculino</label>
+  				<input type="radio" name="rblSexo" id="rblSexoFeminino" value="F" />
+  				<label for="rblSexoFeminino">Feminino</label>
+  				
+  				<input type="radio" name="rblEstadoCivil" id="rblEstadoCivilCasado" value="2">
+  				<label for="rblEstadoCivilCasado">Casado</label>
+  				<input type="radio" name="rblEstadoCivil" id="rblEstadoCivilDivorciado" value="3">
+  				<label for="rblEstadoCivilDivorciado">Divorciado</label>
+				<input type="radio" name="rblEstadoCivil" id="rblEstadoCivilViuvo" value="4" />  	
+  				<label for="rblEstadoCivilViuvo">Viúvo</label>  	
+
+  				<input type="checkbox" name="chkUniaoEstavel" id="chkUniaoEstavel" value="U" /><label for="chkUniaoEstavel">Possui união estável?</label>
+  				<input type="checkbox" name="chkUniaoEstavel" id="chkUniaoEstavel" value="I" /><label for="chkUniaoEstavel">Possui união instável?</label>
+
+  				<label for="txtEmail">E-mail:</label>
+  				<input type="email" name="txtEmail" id="txtEmail" />
+
+  				<label for="txtSenha">Senha:</label>
+  				<input type="password" name="txtSenha" id="txtSenha" />
+
+  				<input type="submit" name="btnGravar" value="Gravar" />
+  				<input type="reset" name="btnLimpar" value="Limpar" />
+  			</fieldset> 
+        </form> 
+    </body> 
+</html> 

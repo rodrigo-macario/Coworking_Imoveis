@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    
+  	<head>
+        <meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/estilo3.css" />
+        <title>LOCATÁRIO (PESSOA FÍSICA)</title>
+    </head>
+    
+    <body>
+       
+        <strong><h1>LOCATÁRIO (PESSOA FÍSICA)</h1></strong>
+        	
+        		<text>
+        			Campos com * (asterisco) são obrigatórios.
+        			<br/>
+        			Tecla "Tab" pula para o próximo campo.
+        			<br/><br/>
+        			<strong>Etapa 2 de 5</strong>	
+        			<br/><br/><br/>	
+        		</text>
+        
+        <form method="GET" action="../../Formularios Joao/resultados.html">
+            <fieldset>
+        		<legend><strong>RENDA MENSAL</strong></legend>                 
+    	        	<br/>
+		      		<label for="valorRendaMensal1">Valor (1) R$*</label> 
+        			<input type="number" name="valorRendaMensal1" min="0" required placeholder="principal"/>
+        			<label for="origemRendaMensal1">&nbsp;&nbsp;Origem*</label>
+        			<input type="text" name="origemRendaMensal1" required placeholder="salário, mesada, pensão..."/>
+        			<br/><br/>
+        			<label for="valorRendaMensal2">Valor (2) R$ &nbsp;</label>
+        			<input type="number" name="valorRendaMensal2" min="0" placeholder="complementar"/>
+        			<label for="origemRendaMensal2">&nbsp;&nbsp;Origem</label>&nbsp;&nbsp;
+        			<input type="text" name="origemRendaMensal2" placeholder="salário, mesada, pensão..."/>
+		        	<br/><br/>
+		        	<label for="valorRendaMensal3">Valor (3) R$ &nbsp;</label>
+        			<input type="number" name="valorRendaMensal3" min="0" placeholder="complementar"/>
+		        	<label for="origemRendaMensal3">&nbsp;&nbsp;Origem</label>&nbsp;&nbsp;
+        			<input type="text" name="origemRendaMensal3" placeholder="salário, mesada, pensão..."/>
+        			<br/><br/>	       
+    	    </fieldset>
+     			<br/><br/>	
+      		<fieldset>
+        		<legend><strong>BENS PRÓPRIOS</strong> (fortalece sua ficha)</legend>
+      	        	<br/>
+		      		<strong><text>CARRO:</text></strong>
+       					<label for="carro1Marca">&nbsp;&nbsp;&nbsp;&nbsp;Marca</label> 
+        				<input type="text" name="carro1Marca" size="15"/>
+        				<label for="carro1Modelo">&nbsp;&nbsp;Modelo</label> 
+        				<input type="text" name="carro1Modelo" size="15"/>
+        				<br/><br/>
+						<label for="carro1Ano">Ano</label> 
+        				<input type="text" name="carro1Ano" size="10"/>
+        				<label for="carro1Placa">&nbsp;&nbsp;Placa</label> 
+        				<input type="text" name="carro1Placa" size="10"/>
+        				<label for="carro1Valor">&nbsp;&nbsp;Valor</label> 
+        				<input type="text" name="carro1Valor" placeholder="aproximado" size="10"/>
+        				
+        			<br/><br/>
+        				
+        			<strong><text>MOTO:</text></strong>
+        			
+        				<label for="motoMarca">&nbsp;&nbsp;&nbsp;&nbsp;Marca</label> 
+        				<input type="text" name="motoMarca" size="15"/>
+        				
+        				<label for="motoModelo">&nbsp;&nbsp;Modelo</label> 
+        				<input type="text" name="motoModelo" size="15"/>
+        				
+        				<br/><br/>
+        				
+        				<label for="motoAno">Ano</label> 
+        				<input type="text" name="motoAno" size="10"/>
+        				
+        				<label for="motoPlaca">&nbsp;&nbsp;Placa</label> 
+        				<input type="text" name="motoPlaca" size="10"/>
+        				
+        				<label for="motoValor">&nbsp;&nbsp;Valor</label> 
+        				<input type="text" name="motoValor" placeholder="aproximado" size="10"/>
+        			
+        			<br/><br/>
+        				
+        			<strong><text>IMÓVEL:</text></strong>
+        			
+        				<label for="bemImovel1Tipo">&nbsp;&nbsp;&nbsp;&nbsp;Tipo</label> 
+        				<input type="text" name="bemImovel1Tipo" placeholder="casa, loja, sala, apto., etc" size="10"/>
+        				
+        				<label for="bemImovel1Descricao">&nbsp;&nbsp;Descrição</label> 
+        				<input type="text" name="bemImovel1Descricao" placeholder="tamanho, quartos, etc" size="15"/>
+        				
+        				<label for="bemImovel1Valor">&nbsp;&nbsp;Valor R$</label> 
+        				<input type="text" name="bemImovel1Valor" placeholder="aproximado" size="10"/>
+       				       				
+       				<br/><br/>
+        			
+        			<strong><text>OUTRO BEM:</text></strong>
+        			
+        				<label for="bemOutro1Descreva">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Descreva</label> 
+        				<input type="text" name="bemOutro1Descreva" size="35"/>
+        				      				
+        				<label for="bemOutro1Valor">&nbsp;&nbsp;Valor R$</label> 
+        				<input type="text" name="bemOutro1Valor" placeholder="aproximado" size="10"/>  
+        			
+        			<br/><br/>	     
+        	 </fieldset>      		
+       		
+       		     <br/><br/>
+       		     
+       		 <fieldset>
+        		<legend><strong>PAGA ALUGUEL NA RESIDENCIA ATUAL</strong></legend>
+        				        	        
+		        	<br/>
+            	    
+				 	<text><strong>SIM</strong> e contrato de locação:</text>
+            	    
+            	    <br/>
+            	    <input type="radio" name="pgAlug" id="pgAlug1" value="pgAlug1" required/>
+            	    <label for="pgAlug1">está em meu nome.</label>
+            	    <br/>
+            	    <input type="radio" name="pgAlug" id="pgAlug2" value="pgAlug2" required/>
+            	    <label for="pgAlug2">está em meu nome, mas perdi o contrato.</label>
+            	    <br/>
+            	    <input type="radio" name="pgAlug" id="pgAlug3" value="pgAlug3" required/>
+            	    <label for="pgAlug3">está em nome de terceiro(s).</label>
+            	    <br/>
+            	    <input type="radio" name="pgAlug" id="pgAlug4" value="pgAlug4" required/>
+            	    <label for="pgAlug4">está em nome de terceiro(s), mas contrato foi perdido.</label>
+            	    <br/>
+            	    <input type="radio" name="pgAlug" id="pgAlug5" value="pgAlug5" required/>
+            	    <label for="pgAlug5">não tenho, nunca fiz.</label>
+      		       	<br/><br/>
+      		       		           
+				 	<strong><text>NÃO</text></strong> e imóvel está alugado: 
+      		       		           
+      		       	<br/>	           	           	           	           	           	           	           
+       		       	<input type="radio" name="pgAlug" id="pgAlug6" value="pgAlug6" />
+            	    <label for="pgAlug6">em nome de terceiro(s).</label>
+            	    <br/>	           	           	           	           	           	           	           
+       		       	<input type="radio" name="pgAlug" id="pgAlug7" value="pgAlug7" />
+            	    <label for="pgAlug7">em nome de terceiro(s), mas contrato foi perdido.</label>
+            	    <br/>	           	           	           	           	           	           	           
+       		       	<input type="radio" name="pgAlug" id="pgAlug8" value="pgAlug8" />
+            	    <label for="pgAlug8">para terceiro(s) e contrato nunca foi feito.</label>
+            	    <br/><br/>
+				 
+           	    	<text><strong>NÃO</strong> e documentos de propriedade estão em nome:</text>
+           	    	
+           	    	<br/>	
+            	    
+            	    <input type="radio" name="pgAlug" id="pgAlug9" value="pgAlug9" />
+           			<label for="pgAlug9">de mim mesmo (imóvel próprio).</label>
+           	    	
+           	    	<br/>	           
+       		       		      
+           	    	<input type="radio" name="pgAlug" id="pgAlug10" value="pgAlug10" />
+            	    <label for="pgAlug10">de terceiro(s).</label>
+            	    
+            	    <br/><br/>  
+      		 
+      		 </fieldset>
+       		
+       		<br/>
+        
+        	<input type="submit" name="btnGravar" value="Continuar">
+        
+        </form>
+   
+    </body>
+</html>

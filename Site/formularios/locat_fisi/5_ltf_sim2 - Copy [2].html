@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+    
+  	<head>
+        <meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/estilo3.css" />
+        <title>LOCATÁRIO (PESSOA FÍSICA)</title>
+    </head>
+    
+    <body>
+        <strong><h1>LOCATÁRIO (PESSOA FÍSICA)</h1></strong>
+        	
+        		<text>
+        			Campos com * (asterisco) são obrigatórios.
+        			<br/>
+        			Tecla "Tab" pula para o próximo campo.
+        			<br/><br/>
+        			<strong>Etapa 5 de 5</strong> /	<a href="../locat_p.fisica/locat_p.fisica/etapa1.html">Voltar</a>
+        			<br/><br/><br/>	
+        		</text>
+        
+        <form method="GET" action="../../Formularios Joao/resultados.html">
+      		
+       		 <fieldset>
+        		<legend><strong>DADOS PROFISSIONAIS</strong></legend>
+        				        	        
+		        	<br/>
+		        	
+           		    <label for="profissao">Profissão*</label> 
+        			<input type="text" name="profissao" required />
+        			
+        			<label for="cargo">Cargo*</label>
+        			<input type="text" name="cargo" required />
+        			        			
+        			<label for="salarioLq">Salário*</label>
+        			<input type="text" name="salarioLq" required placeholder="líquido"/>
+	        			        	
+	        		<br/><br/>
+		        			        	
+		        	<label for="rh">Empresa*</label>
+        			<input type="text" name="rh" placeholder="nome" required/>
+	
+		        	<label for="siteTrab">Site</label>
+        			<input type="text" name="siteTrab" />
+        		    
+        		    <br/><br/>
+		        			        	
+		        	<label for="rh">RH</label>
+        			<input type="text" name="rh" placeholder="nome do responsável"/>
+	
+		        	<label for="telTrab">Telefone</label>
+        			<input type="text" name="telTrab" placeholder="empresa ou RH"/>
+        		    
+        		    <label for="ramalTrab">Ramal</label>
+        			<input type="text" name="ramalTrab"/>
+         		    
+         		    <br/><br/>
+         		    
+         		    <text><strong>Endereço trabalho:</strong></text>
+         		    
+         		    <br/><br/>
+          		    
+          		    <label for="cepResid">CEP</label> 
+        			<input type="number" name="cepResid" min="0"/>
+        			
+        			<label for="cidadResid">Cidade*</label>
+        			<input type="text" name="cidadResid" required/>
+        			
+        			<label for="bairrResid">Bairro*</label>
+        			<input type="text" name="bairrResid" required/>
+		        	
+		        	<br/><br/>
+		        	
+		        	<label for="lograResid">Logradouro*</label>
+        			<input type="text" name="lograResid" required placeholder="rua, av., praça, etc"/>
+        			
+        			<label for="numerResid">Número*</label>
+        			<input type="text" name="numerResid" required/>
+       				       				
+       				<label for="compleResid">Complemento</label>
+        			<input type="text" name="compleResid" placeholder="bloco, unidade, etc"/>
+       				
+       				<br/><br/>
+
+		        	<label for="condResid">Condomínio</label>
+        			<input type="text" name="condResid" placeholder="nome"/>
+      			        				        		        	        				        		        				        		        		
+          		    <br/><br/>
+           		    
+			</fieldset>
+      		
+      			<br/><br/>
+      			
+      		<fieldset>
+        		<legend><strong>ALUGUEL COMERCIAL</strong></legend>
+		   
+ 					<br/>
+       			
+				    <label for="desdeComerc">Ocupou desde*</label>
+        			<input type="text" name="desdeComerc" required placeholder="ano"/>
+        			        				        		        	        				        		        	
+		        	<label for="valorComerc">Aluguel R$*</label>
+					<input type="number" name="valorComerc" required min="0"/>
+			    
+			     	<br/><br/> 
+				    
+				    <input type="checkbox" name="preencher" id="lojaDeseja" value="2" />
+					<label for="preencher"><strong>Endereço:</strong> repetir o endereço do meu trabalho</label>
+            	    	
+					<br/><br/>
+       			
+       				<label for="cepComerc">CEP</label> 
+        			<input type="number" name="cepComerc" min="0"/>
+        			
+        			<label for="cidadComerc">Cidade*</label>
+        			<input type="text" name="cidadComerc" required/>
+        			
+        			<label for="bairrComerc">Bairro*</label>
+        			<input type="text" name="bairrComerc" required/>
+		        	
+		        	<br/><br/>
+		        	
+		        	<label for="lograComerc">Logradouro*</label>
+        			<input type="text" name="lograComerc" required placeholder="rua, av., praça, etc"/>
+        			
+        			<label for="numerComerc">Número*</label>
+        			<input type="text" name="numerComerc" required/>
+       				       				
+       				<label for="compleComerc">Complemento</label>
+        			<input type="text" name="compleComerc" placeholder="bloco, unidade, etc"/>
+       				
+       				<br/><br/>
+
+		        	<label for="condComerc">Condomínio</label>
+        			<input type="text" name="condComerc" placeholder="nome"/>
+      			        				        		        	        				        		        				        		        		
+       			    <br/><br/>
+					           			     			       			        		            		       				
+       		</fieldset>
+       		
+       			<br/><br/>
+      			
+      		<fieldset>
+        		<legend><strong>REFERÊNCIAS COMERCIAIS</strong> (compra faturado ou paga mensalidade?)</legend>
+       		       		           
+        		    <br/>
+        		    
+        		    <label for="empRefComerc1">Empresa (1)</label>
+        			<input type="text" name="empRefComerc1" placeholder="nome"/>
+        		    
+        		    <label for="nomeRefComerc1">Nome</label>
+        			<input type="text" name="nomeRefComerc1" placeholder="atendente / representante"/>
+ 		        	
+ 		        	<label for="telRefComerc1">Telefone</label>
+        			<input type="telefone" name="telRefComerc1" placeholder="ou celular" min="0"/>       		    
+ 		        	
+ 		        	<label for="relacRefComerc1">Relação profissional</label>
+        			<input type="text" name="relacRefComerc1" placeholder="ex: meu fornecedor de..."/>  
+        			
+        		    <br/><br/>
+         		    
+         		    <label for="empRefComerc2">Empresa (2)</label>
+        			<input type="text" name="empRefComerc2" placeholder="nome"/>
+        		    
+        		    <label for="nomeRefComerc2">Nome</label>
+        			<input type="text" name="nomeRefComerc2" placeholder="atendente / representante"/>
+ 		        	
+ 		        	<label for="telRefComerc2">Telefone</label>
+        			<input type="telefone" name="telRefComerc2" placeholder="ou celular" min="0"/>       		    
+ 		        	
+ 		        	<label for="relaRefComerc2">Relação profissional</label>
+        			<input type="text" name="relaRefComerc2" placeholder="ex: meu fornecedor de..."/>     		       		    	
+         		    
+         		    <br/><br/>   
+       		 	
+       		 </fieldset>
+       		 
+       		  	<br/><br/> 
+      			
+      		<fieldset>
+      		 	<legend><strong>DOCUMENTOS DE PROPRIEDADE DO IMÓVEL COMERCIAL EM NOME</strong> *</legend>
+      		       		           
+      		       	<br/>	           
+       		       		           
+           	    	<input type="radio" name="propriedComerc" id="propriedComerc1" value="propriedComerc1" />
+            	    <label for="propriedComerc1">De familiar</label>
+            	    
+            	    <input type="radio" name="propriedComerc" id="propriedComerc2" value="propriedComerc2" />
+            	    <label for="propriedComerc2">De amigo</label> 
+            	    
+            	    <input type="radio" name="propriedComerc" id="propriedComerc3" value="propriedComerc3" />
+            	    <label for="propriedComerc3">De conhecido</label>
+            	    
+            	    <input type="radio" name="propriedComerc" id="propriedComerc4" value="propriedComerc4" />
+            	    <label for="propriedComerc4">De desconhecido</label>
+            	    
+            	    <br/><br/>
+            	    
+            	    <input type="radio" name="propriedComerc" id="propriedComerc5" value="propriedComerc5" />
+            	    <label for="propriedComerc5">De terceiro que é próximo a um conhecido, amigo ou familiar meu</label>
+            	    
+             	    <br/><br/>
+             	    
+            	    <input type="radio" name="propriedComerc" id="propriedComerc6" value="propriedComerc6" />
+            	    <label for="propriedComerc6">Da empresa em que trabalho</label>
+            	    
+            	    <br/><br/>
+      		 </fieldset>
+       		 
+       		 	<br/><br/>
+       		 
+       		 <fieldset>
+      		 	<legend><strong>RESPOSÁVEIS PELA RESIDÊNCIA</strong></legend>
+           			
+        			<br/>
+        			
+        			<text><strong>PROPRIETÁRIO</strong> ou representante:</text>
+        			
+        			<br/><br/>
+        			
+        			<label for="propComerc">Nome*</label>
+        			<input type="text" name="propComerc" required placeholder="e sobrenome"/>
+		        
+		        	<label for="telPropComerc">Celular*</label>
+        			<input type="telefone" name="telPropComerc" required min="0" placeholder="ou telefone"/>
+        			
+        			<br/><br/>  
+		        	
+		        	<label for="emailPropComerc">E-mail</label>
+        			<input type="email" name="emailPropComerc" required /> 		        		
+ 		        	
+ 		        	<label for="alugPropComerc">Aluguel valor R$*</label>
+        			<input type="number" name="alugPropComerc" required min="0"/>  
+        			
+        			<br/><br/>
+        			
+        			<strong><text>LOCATÁRIO:</text></strong>
+        			
+        			<br/><br/>
+
+        			<label for="locatPropComerc">Nome*</label>
+        			<input type="text" name="locatPropComerc" required placeholder="e sobrenome"/>
+		        
+		        	<label for="telLocatPropComerc">Celular*</label>
+        			<input type="telefone" name="telLocatPropComerc" required min="0" placeholder="ou telefone"/>
+        			
+        			<br/><br/>  
+		        	
+		        	<label for="emailLocatPropComerc">E-mail</label>
+        			<input type="email" name="emailLocatPropComerc" required/> 	
+        				        		
+ 		        	<label for="parentLocatPropComerc">Parentesco ou Proximidade*</label>
+        			<input type="text" name="parentLocatPropComerc" required placeholder="amigo, tio, etc"/>  
+        			
+        			<br/><br/>     			       			        		            		       				
+         			     			       			        		            		       				
+       		 </fieldset>
+       		 
+       		 	<br/>
+       		
+        	<input type="submit" name="btnGravar" value="Continuar">
+        	
+        </form>
+   
+    </body>
+</html>

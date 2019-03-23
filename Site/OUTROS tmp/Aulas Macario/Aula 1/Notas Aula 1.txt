@@ -1,0 +1,17 @@
+Códigos Fontes:
+
+<Head> Tudo aquilo que não aparece.
+<Body> Tudo aquilo que aparece (Imagens, Fontes, Etc).
+<H1> Maior título que uma página pode ter, questão de priopirade, quanto maior o H (EX? H1, H2, H3) menor a prioridade, o limite é até H6.
+<!--Isso serve para anotações enquanto progama para não se perder-->.
+<P> Paragráfo 
+<BR/> Quebra de linhas (uma das poucas tags que não precisa fechar nem abir)
+<b> Negrito
+<Strong> Negrito (Mais usado)
+<i> Italico
+<em> Italico
+<Strpmg><em> Fica em negrito e italico </em></strong>
+<ul> Lista não ordenada (Bolinhas Prestas)
+<ol> Lista ordenada (Numérica)
+
+

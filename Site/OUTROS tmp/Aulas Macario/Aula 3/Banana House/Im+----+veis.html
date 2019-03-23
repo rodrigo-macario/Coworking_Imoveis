@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <form method="GET" action="resultados.html">
+        	<fieldset>
+        		<legend>Geek Imóveis</legend>
+        		
+        		<label for="txtID">CPF:</label>
+        		<input type="number" name="txtCPF" id="txtCPF" />
+        		
+        		<label for="txtNome">Nome:</label> 
+        		<input type="text" name="txtNome" />
+
+        		<label for="txtTelefoneDeContato">Telefone De Contato:</label>
+        		<input type="number" name="txtTelefone de Contato" id="txtTelefoneDeContato" />
+
+        		<label for="txtEmail">E-mail:</label>
+        		<input type="email" name="txtEmail" id="txtEmail" />
+
+
+                <label><strong>Busca Quantos Quartos?</strong></label>
+                <input type="radio" name="rblQuartos" id="rblDoisQuartos"
+                 value="Um" checked="checked" />
+                <label for="rblDoisQuartos">Entre 1 e 2 Quartos</label>
+                <input type="radio" name="rblQuartos" id="rblTresQuartos" value="Dois" />
+                <label for="rblTresQuartos">2 ou mais Quartos</labal>
+
+                <label><strong>Busca um Imóvel em qual Bairro?</strong></label>
+                <input type="radio" name="rblEstadoCivil" id="rblEstadoCivilSolteiro" value="1" checked="checked">
+                <label for="rblEstadoCivilSolteiro">Barra da Tijuca</label>
+                <input type="radio" name="rblEstadoCivil" id="rblEstadoCivilCasado" value="2">
+                <label for="rblEstadoCivilCasado">Leblon</label>
+                <input type="radio" name="rblEstadoCivil" id="rblEstadoCivilDivorciado" value="3" />
+                <label for="rblEstadoCivilDivorciado">Recreio</label>
+                <input type="radio" name="rblEstadoCivil" id="rblEstadoCivilViuvo" value="4" />
+                <label for="rblEstadoCivilViuvo">Copacaba</label>
+
+                <input type="checkbox" name="chkUniaoEstavel" id="chkUniaoEstavel" value="U" /><label for="chkUniaoEstavel">Compra de Imóvel?</label>
+                <input type="checkbox" name="chkUniaoInstavel" id="chkUniaoInstavel" value="I" /><label for="chkUniaoInstavel">Aluguel de Imóvel?</label>
+
+        		<input type="submit" name="btnGravar" value="Gravar">
+        		<input type="reset" name="bntLimpar" id="Limpar" />
+        	</fieldset>
+        </form>
+    </body>
+</html>

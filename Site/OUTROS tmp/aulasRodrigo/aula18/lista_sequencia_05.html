@@ -1,0 +1,67 @@
+<!DOCType HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+        <script language="javascript">
+            
+            function calcularDesconto() { 
+            
+                var valorAplicado, taxa, valorResgate, qtoMeses, rendimento;
+            
+                valorAplicado = 0.0;
+                taxa = 0.0;
+                valorResgate = 0.0;
+                qtoMeses = 0.0;
+                rendimento = 0.0;
+              
+                valorAplicado = document.getElementById ("idValorAplicado").value;
+                
+                valorResgate = valorAplicado * (Math.pow((1 + taxa/100), qtdMeses));
+                rendimento = ............
+                
+                taxa = document.getElementById ("idTaxa").value;
+                
+                qtoMeses = document.getElementById ("idQtoMeses").value;
+                
+                
+                
+
+                
+                document.getElementById("idRendimento").value = rendimento;
+                /* .value ira pegar o valor desse item, poderia ser o tamanho, cor, etc */
+                        
+            }
+            
+        </script>
+        
+    </head> 
+    <body>
+        <h2>Exercício ListaSequencia no. 05</h2>
+        <form name="exercicio05">
+            
+            <label for="idValorAplicado">Valor da Aplicação:</label>
+            <input type="text" id="idValorAplicado" name="valorProduto">
+            <br/>
+            
+            <label for="idTaxa">Valor da Taxa:</label>
+            <input type="text" id="idTaxa" name="taxa">
+            <br/>
+            
+            <label for="idQtoMeses">Quantos Meses:</label>
+            <input type="text" id="idQtoMeses" name="qtoMeses">
+            <br/>
+            
+            <label for="idRendimento">RENDIMENTO: </label>
+            <input type="text" id="idRendimento" name="rendimento" readonly>
+            <br/>
+            
+            
+            <input type="reset" value="Limpar">
+            <input type="button" value="Calcular" onclick="calcularDesconto()">
+            <!-- onclick, ou seja, o botão ao clicarem, recebera "calcularDesconto" -->
+        </form>
+    </body>
+
+
+</html>

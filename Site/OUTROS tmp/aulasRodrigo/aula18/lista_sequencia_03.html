@@ -1,0 +1,29 @@
+<!DOCType HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head> 
+    <body>
+        <script language="javascript">
+            var desconto, valorProduto, novoValorProduto, valorDesconto;
+            
+            desconto = 9;
+            valorProduto = 0.0;
+            novoValorProduto = 0.0;
+            valorDesconto = 0.0;
+            
+            valorProduto = prompt ("Informe o valor do produto");
+            /* prompt é a mesma coisa de leia e escreva de algoritmos (sim assume as 2 funções) e ele que abre a janela para preencher o valor */
+                
+            valorDesconto = valorProduto * (desconto / 100);
+            novoValorProduto = valorProduto - valorDesconto;
+            
+            document.write ("<div style = 'color: blue'>");
+            document.write ("<p> O valor do produto após um desconto de " + desconto + "% será igual a R$ " + novoValorProduto + "</p>");
+            document.write ("</div>");
+            
+        </script>
+    </body>
+
+
+</html>

@@ -1,0 +1,111 @@
+/* CSS Document */
+* {
+	font-family: Verdana, Arial, Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	font-size: 14px;
+}
+
+.pos_esq {float: left;}
+
+header {
+	background: #FFF;
+}
+
+body {
+	background: #2A81D2;
+}
+
+
+@media screen and (max-width: 320px) { 
+	body {background-color: olive;}
+	.menu_mobile_exerc {
+		margin: 30px auto;
+		padding: 0px;
+		text-align: center;
+	}
+	.menu_mobile_exerc ul li {
+		list-style-type: none;
+		padding: 10px;
+		margin: 0px 0px;
+		background: #FFFF00;
+		text-align: center;
+	}
+	.menu_mobile_exerc ul  {
+		padding: 0px;
+		margin: 0px;
+	}
+	.logo {
+		height: 80px;
+		margin: 0px auto;
+		float: none;
+	}
+	.logo-centro {
+		height: 300px;
+		margin: 0px auto;
+	}
+	 
+	.div-centro {
+		margin: 0px auto;
+		text-align: center;
+	}
+	.texto8 {
+		margin: 10px;
+	}
+	.menu_mobile_exerc_2 {
+		margin: 30px auto;
+		padding: 0px;
+		text-align: center;
+	}
+	.menu_mobile_exerc_2 ul li {
+		list-style-type: none;
+		padding: 10px;
+		margin: 0px 0px;
+		background: #FFAE00;
+		text-align: center;
+	}
+	.menu_mobile_exerc_2 ul  {
+		padding: 0px;
+		margin: 10px;
+	}
+}
+
+/* <a href="#" style="background:#FF8; padding:10px 50px;">Quem somos</a> */
+
+@media screen and (min-width: 321px) and (max-width: 768px) { 
+	body {background-color: tan;}
+	.menu_pc_exerc {display: none;}
+	.menu_mobile_exerc {display: block;}
+	.logo {
+		height: 150px;
+		margin: 0px auto;
+		float: none;
+	}
+
+}
+
+@media screen and (min-width: 769px) { 
+	.logo {
+		height: 80px;
+		margin: 0px auto;
+		float: center;
+		text-align: center;
+		background: #FFF;
+	}
+	.menu_pc_exerc { 
+		display: block; 
+		background: #FFF;
+	} 
+	.menu_mobile_exerc {display: none;}
+	.menu_pc_exerc ul li {
+		float: right;
+		vertical-align: middle;
+		list-style-type: none;
+		padding: 10px;
+		margin: 0px 10px;
+	background: -webkit-linear-gradient(#8B8B00, #FFFF00);
+	background: -o-linear-gradient(#8B8B00, #FFFF00);
+	background: linear-gradient(#8B8B00, #FFFF00);
+		border-radius: 15px; 
+		text-shadow: 2px 2px 4px #F5F; 
+		box-shadow: 10px 10px 5px grey;  
+}
+

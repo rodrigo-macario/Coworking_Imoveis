@@ -1,0 +1,56 @@
+Códigos Fontes:
+
+**Tags(Todos os comandos que ficam dentro de <....>):
+
+<Head> Tudo aquilo que não aparece.
+
+<Body> Tudo aquilo que aparece (Imagens, Fontes, Etc).
+
+<H1> Maior título que uma página pode ter, questão de priopirade, quanto maior o H (EX? H1, H2, H3) menor a prioridade, o limite é até H6.
+
+<!--Isso serve para anotações enquanto progama para não se perder-->.
+
+<P> Paragráfo. 
+
+<BR/> Quebra de linhas (uma das poucas tags que não precisa fechar nem abir).
+
+<b> Negrito.
+
+<Strong> Negrito (Mais usado).
+
+<i> Italico.
+
+<em> Italico.
+
+<Strong><em> Fica em negrito e italico </em></strong>.
+
+<ul> Lista não ordenada (Bolinhas Prestas).
+
+<ol> Lista ordenada (Numérica).
+
+<Table> Tabela.
+<th> Cabeçalho da Tabela (Em negrito).
+<tr> Linha da tabela.
+<td> Representa o conteúdo das linhas da tabela.
+
+<video controls> Cria player de vídeo.
+<source src="....." type="....."> Directório e formato do arquivo.
+
+<audio controls> Cria player de Aúdio.
+<source="....." type="....."> Directório e formato do arquivo.
+
+<a href="link ou nome de página interna">Nome da Função</a> Cria link para outra página (interna ou externa)
+
+**Atibutos(Ficam dentro das Tags):
+
+<Table border="1"> Cria borda para tabela.
+
+<td colspan="4"> Mesclar colunas de uma linha (4).
+
+<td rowspan="2"> Mescla linhas de uma coluna (2).
+
+<video controls autoplay> autoplay no player de vídeo.
+
+<video controls autoplay> autoplay no player de aúdio.
+
+

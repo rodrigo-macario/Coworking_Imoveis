@@ -1,0 +1,10 @@
+<html>
+      <head>
+            <title>Título da página</title>
+      </head>
+      <body>
+            <p>olá mundo</p>
+            <p>Bem vindo</p>
+            <img src="C:\Users\803-10\Pictures\ETC\Dog.jpg." alt="Dog" width="180" height="180">
+      </body>
+</html>

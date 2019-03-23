@@ -1,0 +1,257 @@
+ <!DOCTYPE html>
+<html>
+    
+  	<head>
+        <meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/estilo3.css" />
+        <title>LOCATÁRIO (PESSOA FÍSICA)</title>
+    </head>
+    
+    <body>
+        <strong><h1>LOCATÁRIO (PESSOA FÍSICA)</h1></strong>
+        	
+        		<text>
+        			Campos com * (asterisco) são obrigatórios.
+        			<br/>
+        			Tecla "Tab" pula para o próximo campo.
+        			<br/><br/>
+        			<strong>Etapa 4 de 5</strong> /	<a href="../locat_p.fisica/locat_p.fisica/etapa1.html">Voltar</a>
+        			<br/><br/><br/>	
+        		</text>
+        <form method="GET" action="../../Formularios Joao/resultados.html">
+      		<fieldset>
+        	 	<legend><strong>DEMAIS LOCATÁRIOS</strong></legend>
+           			
+        			<br/>
+        			
+        			<text>Nome (1) é você.</text>
+        			
+        			<br/><br/>
+        			
+        			<label for="nomeLocatario2">Nome (2)*</label>
+        			<input type="text" name="nomeLocatario2" required placeholder="e sobrenome"/>
+		        
+		        	<label for="telefoneLocatario2">Celular*</label>
+        			<input type="telefone" name="telefoneLocatario2" required min="0" placeholder="ou telefone"/>
+        			
+        			<label for="cpfLocatario2">CPF*</label>
+        			<input type="number" name="cpfLocatario2" id="cpfLocatario2" min="0" required/>
+        			
+        			<br/><br/>
+        			     			       			        		            		       				
+        			<label for="nomeLocatario3">Nome (3)*</label>
+        			<input type="text" name="nomeLocatario3" required placeholder="e sobrenome"/>
+		        
+		        	<label for="telefoneLocatario3">Celular*</label>
+        			<input type="telefone" name="telefoneLocatario3" required min="0" placeholder="ou telefone"/>
+        			
+        			<label for="cpfLocatario3">CPF*</label>
+        			<input type="number" name="cpfLocatario3" id="cpfLocatario3" min="0" required/>
+        			
+        			<br/><br/>     			       			        		            		       				
+         			     			       			        		            		       				
+       		 		<label for="nomeLocatario4">Nome (4)*</label>
+        			<input type="text" name="nomeLocatario4" required placeholder="e sobrenome"/>
+		        
+		        	<label for="telefoneLocatario4">Celular*</label>
+        			<input type="telefone" name="telefoneLocatario4" required min="0" placeholder="ou telefone"/>
+        			
+        			<label for="cpfLocatario4">CPF*</label>
+        			<input type="number" name="cpfLocatario4" id="cpfLocatario4" min="0" required/>
+        			
+        			<br/><br/>
+       		 
+       		 </fieldset>   
+      		 	
+      		 	<br/><br/>
+ 
+       		 <fieldset>
+
+				<legend><strong>QUEM MAIS RESIDIRÁ NO IMÓVEL COM VOCÊS</strong></legend>
+
+					<br/> 
+
+            	    <input type="checkbox" name="ninguemMaisResidiraConosco" id="ninguemMaisResidiraConosco" value="ninguemMaisResidiraConosco" required/>
+           	        <label for="ninguemMaisResidiraConosco">Ninguém mais residirá conosco*.</label>
+            	                	           		       		    
+       		       	<br/><br/>	  
+        		       		    
+        		    <label for="parentescoResidiraComVoce1">(1) Parentesco / proximidade</label>
+        			<input type="text" name="parentescoResidiraComVoce1" placeholder="amigo, tio, etc"/>  
+        		    
+        		    <label for="nomeResidiraComVoce1">Nome</label>
+        			<input type="text" name="nomeResidiraComVoce1" />
+ 		        	
+ 		        	<label for="telefoneResidiraComVoce1">Celular</label>
+        			<input type="telefone" name="telefoneResidiraComVoce1" min="0" placeholder="ou telefone"/>       		    
+ 		        	
+         		    <br/><br/> 
+         		    
+         		    <label for="parentescoResidiraComVoce2">(2) Parentesco / proximidade</label>
+        			<input type="text" name="parentescoResidiraComVoce2" placeholder="amigo, tio, etc"/>
+		        	
+		        	<label for="nomeResidiraComVoce2">Nome</label>
+        			<input type="text" name="nomeResidiraComVoce2" />
+        			
+ 		        	<label for="telefoneResidiraComVoce2">Celular</label>
+        			<input type="telefone" name="telefoneResidiraComVoce2" min="0" placeholder="ou telefone"/>
+ 		        	
+       			    <br/><br/>
+       			    
+       			    <label for="parentescoResidiraComVoce2">(3) Parentesco / proximidade</label>
+        			<input type="text" name="parentescoResidiraComVoce2" placeholder="amigo, tio, etc"/>
+		        	
+		        	<label for="nomeResidiraComVoce2">Nome</label>
+        			<input type="text" name="nomeResidiraComVoce2" />
+        			
+ 		        	<label for="telefoneResidiraComVoce2">Celular</label>
+        			<input type="telefone" name="telefoneResidiraComVoce2" min="0" placeholder="ou telefone"/>
+ 		        	
+       			    <br/><br/>
+
+			 </fieldset>
+       		     
+        		    <br/><br/>
+       		 	
+      		 <fieldset>
+        		<legend><strong>REFERÊNCIAS PESSOAIS</strong> (que não sejam os locatários, fiadores ou pessoas que irão morar com você)</legend>
+      		    
+      		    <!-- por regra para negar cadastrado, se botar a mesma pessoa repetida ou se for um locatario, fiadores ou pessoa que ira morar -->
+       		       	     		       		    
+        		    <br/> 
+        		       		    
+        		    <label for="parentescoReferenciaPessoal1">(1) Parentesco ou Proximidade*</label>
+        			<input type="text" name="parentescoReferenciaPessoal1" required placeholder="amigo, tio, etc"/>  
+        		    
+        		    <label for="nomeReferenciaPessoal1">Nome*</label>
+        			<input type="text" name="nomeReferenciaPessoal1" required/>
+ 		        	
+ 		        	<label for="telefoneReferenciaPessoal1">Telefone ou Celular*</label>
+        			<input type="telefone" name="telefoneReferenciaPessoal1" min="0" required/>       		    
+ 		        	
+         		    <br/><br/> 
+         		    
+         		    <label for="parentescoReferenciaPessoal2">(2) Parentesco ou Proximidade*</label>
+        			<input type="text" name="parentescoReferenciaPessoal2" required placeholder="amigo, tio, etc"/>
+		        	
+		        	<label for="nomeReferenciaPessoal2">Nome*</label>
+        			<input type="text" name="nomeReferenciaPessoal2" required/>
+        			
+ 		        	<label for="telefoneReferenciaPessoal2">Telefone ou Celular*</label>
+        			<input type="telefone" name="telefoneReferenciaPessoal2" min="0" required/>
+ 		        	
+       			    <br/><br/>
+        			     			       			        		            		       				
+       		</fieldset>
+       		       		     
+       		       	<br/><br/>
+       		       	
+       		<fieldset>
+        		<legend><strong>TRABALHA</strong> (formal ou informal)</legend>
+        				        	        
+		        	<br/>
+		        	
+            	    <input type="radio" name="trabalhaSim" id="trabalhaSim" value="1" />
+            	    <label for="trabalhaSim">Sim</label>
+           	 		<input type="radio" name="trabalhaNao" id="trabalhaNao" value="2" />
+           			<label for="trabalhaNao">Não</label>
+            	    
+           		    <br/><br/>
+           		    
+			</fieldset> 
+      		     
+      		     <br/><br/>
+       		     
+       		 <fieldset>
+        		<legend><strong>DADOS PROFISSIONAIS:</strong></legend>
+        				        	        
+		        	<br/>
+		        	
+		        	<label>Sua Profissão:</label>
+            	    <input type="radio" name="rblContratadoComCarteiraAssinada" id="rblContratadoComCarteiraAssinada" value="1" />
+            	    <label for="rblContratadoComCarteiraAssinada">Contratado(a) com carteira assinada</label>
+           	 		<input type="radio" name="rblContratadoSemCarteiraAssinada" id="rblContratadoSemCarteiraAssinada" value="2" />
+           			<label for="rblContratadoSemCarteiraAssinada">Contratado(a) sem carteira assinada</label>
+            	    <input type="radio" name="rblAutonomo" id="rblAutonomo" value="3" />
+            	    <label for="rblAutonomo">Autônomo(a)</label>
+           		    <input type="radio" name="rblProfissionalLiberal" id="rblProfissionalLiberal" value="4" />
+            	    <label for="rblProfissionalLiberal">Profissional Liberal</label>
+             		<input type="radio" name="rblEmpresario" id="rblEmpresario" value="5" />
+           		    <label for="rblEmpresario">Empresário(a) (MEI)</label>
+		            <input type="radio" name="rblEmpresario1" id="rblEmpresario1" value="6" />
+           		    <label for="rblEmpresario1">Empresário(a) (EIRELI)</label>
+		        	<input type="radio" name="rblEmpresario2" id="rblEmpresario2" value="7" />
+           		    <label for="rblEmpresario2">Empresário(a) (LTDA)</label>
+           		    <input type="radio" name="outro" id="outro" value="8" />
+           		    <label for="outro">Outro</label>
+           		    
+           		    <br/><br/>
+           		    
+           		    <label for="profissao">Profissão:</label> 
+        			<input type="text" name="profissao"  />
+        			
+        			<label for="cargo">Cargo:</label>
+        			<input type="text" name="cargo"  />
+        			        			
+        			<label for="admissao">Admissão:</label>
+        			<input type="text" name="admissao"  />
+        			        			
+        			<label for="salarioLiquido">Salário Líguido:</label>
+        			<input type="text" name="salarioLiquido"  />
+	        			        	
+	        		<br/><br/>
+		        			        	
+		        	<label for="rh">RH responsável:</label>
+        			<input type="text" name="rh" />
+	
+		        	<label for="telTrabalho">Telefone e Ramal de onde trabalha ou do RH (preferencialmente):</label>
+        			<input type="text" name="telTrabalho" placeholder="Opcional"/>
+         		    
+         		    <br/><br/>
+          		    
+          		    <label for="siteEmpresa">Site da empresa:</label>
+        			<input type="text" name="siteEmpresa"  />
+          		    
+          		    <label for="enderecoEmpresa">Endereço da empresa::</label>
+        			<input type="text" name="enderecoEmpresa"  />
+          		    
+          		    <label for="bairroEmpresa">Bairro da empresa:</label>
+        			<input type="text" name="bairroEmpresa"  />
+          		    
+          		    <label for="cidadeEmpresa">Cidade da empresa:</label>
+        			<input type="text" name="cidadeEmpresa"  />
+           		    
+			</fieldset>
+       		
+       			<br/><br/>
+       			
+       		<fieldset>
+        		<legend><strong>PAGA ALUGUEL:</strong></legend>
+        				        	        
+		        	<br/>
+		        	
+		        	<label>Trabalha (ainda que informalmente)</label>
+            	    <input type="radio" name="trabalhaSim" id="trabalhaSim" value="1" />
+            	    <label for="trabalhaSim">Sim</label>
+           	 		<input type="radio" name="trabalhaNao" id="trabalhaNao" value="2" />
+           			<label for="trabalhaNao">Não</label>
+            	    
+           		    
+           		    <br/><br/>
+           		    
+			</fieldset>       		       	
+        		
+              
+        	<br/>
+        	
+        	<strong>Preenchendo este formulário, você automaticamente declara serem verdadeiras as informações nele descritas, autoriza que se façam as confirmações necessárias e concorda com o direito do proprietário do imóvel de poder recusar a sua ficha sem precisar justificar.</strong>
+
+       		<br/><br/>
+        
+        	<input type="submit" name="btnGravar" value="Continuar">
+        	<input type="reset" name="bntLimpar" id="Limpar" />
+        
+        </form>
+   
+    </body>
+</html>

@@ -1,0 +1,366 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3176,
+	"last_window_id": 1,
+	"log_indexing": false,
+	"settings":
+	{
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"rblEstado",
+						"rblEstadoCivil"
+					],
+					[
+						"rblEstadoCivil",
+						"rblEstadoCivilDivorciado"
+					],
+					[
+						"id",
+						"id"
+					],
+					[
+						"in",
+						"input\tTag"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/C/Users/805-08/Desktop/Aulas Macario/Aula 3/Banana House/resultados.html",
+					"settings":
+					{
+						"buffer_size": 141,
+						"encoding": "UTF-8",
+						"line_ending": "Windows",
+						"name": "<!DOCTYPE html>"
+					}
+				},
+				{
+					"contents": "<!DOCTYPE html>\n<html>\n    <head>\n        <title></title>\n    </head>\n    <body>\n        <form method=\"GET\" action=\"resultados.html\">\n        \t<fieldset>\n        \t\t<legend>Cadastro de pessoa física</legend>\n        \t\t\n        \t\t<label for=\"txtID\">ID:</label>\n        \t\t<input type=\"number\" name=\"txtID\" id=\"txtID\" />\n        \t\t\n        \t\t<label for=\"txtNome\">Nome:</label> \n        \t\t<input type=\"text\" name=\"txtNome\" />\n\n        \t\t<label for=\"txtDtNascimento\">Data de nascimento:</label>\n        \t\t<input type=\"datetime-local\" name=\"txtDtNascimento\" id=\"txtDtNascimento\" />\n\n        \t\t<label for=\"txtEmail\">E-mail:</label>\n        \t\t<input type=\"email\" name=\"txtEmail\" id=\"txtEmail\" />\n\n        \t\t<label for=\"txxSenha\">Senha:</label>\n        \t\t<input type=\"password\" name=\"txtSenha\" id=\"txtSenha\" />\n\n        \t\t<input type=\"submit\" name=\"btnGravar\" value=\"Gravar\">\n        \t\t<input type=\"reset\" name=\"bntLimpar\" id=\"Limpar\" />\n        \t</fieldset>\n        </form>\n    </body>\n</html>",
+					"file": "/C/Users/805-08/Desktop/Aulas Macario/Aula 3/Banana House/07.html",
+					"file_size": 1015,
+					"file_write_time": 131796243652524533,
+					"settings":
+					{
+						"buffer_size": 984,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/805-08/Desktop/Aulas Macario/Aula 3/Banana House/8.html",
+					"settings":
+					{
+						"buffer_size": 2425,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/805-08/Desktop/Aulas Macario/Aula 3/Banana House/Imóveis.html",
+					"settings":
+					{
+						"buffer_size": 2368,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/Users/805-08/Desktop/Aulas Macario/Aula 2/Banana House/youtube.html",
+				"/C/Users/805-08/Desktop/Aulas Macario/Aula 2/Banana House/6.html",
+				"/C/Users/805-08/Desktop/Aulas Macario/Aula 2/Banana House/5.html",
+				"/C/Users/805-08/Desktop/Aulas Macario/Aula 2/Banana House/4.html"
+			],
+			"find":
+			{
+				"height": 27.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"<label for=\"txtDtNascimento\">Data de nascimento:</label>\n        \t\t<input type=\"datetime-local\" name=\"txtDtNascimento\" id=\"txtDtNascimento\">"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 3,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/C/Users/805-08/Desktop/Aulas Macario/Aula 3/Banana House/resultados.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 141,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										141
+									]
+								],
+								"settings":
+								{
+									"auto_name": "<!DOCTYPE html>",
+									"syntax": "Packages/HTML/HTML.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/C/Users/805-08/Desktop/Aulas Macario/Aula 3/Banana House/07.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 984,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										984,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/C/Users/805-08/Desktop/Aulas Macario/Aula 3/Banana House/8.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2425,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2425,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/C/Users/805-08/Desktop/Aulas Macario/Aula 3/Banana House/Imóveis.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2368,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1099,
+										1099
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,2,3,-32000,-32000,-1,-1,663,125,125,781",
+			"project": "",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

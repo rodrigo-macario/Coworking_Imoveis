@@ -1,0 +1,77 @@
+/* CSS Document */
+body { background-color: tan; }
+.menu_pc { display: block; } /* Block mostra e None omite. Utilidade  */
+.menu_mobile {display: none;}
+.menu_pc ul li {
+	list-style-type: none;
+	padding: 10px;
+	margin: 0px 10px;
+	background: linear-gradient(#8B8B00, #FFFF00);
+	border-radius: 15px; /* bordas arredondas e quanto maior mais sera arredondada */
+	text-shadow: 2px 2px 4px #F5F; /* sombra no texto */
+	box-shadow: 10px 10px 5px grey; /* sombra do box */ 
+}
+.pos_esq {float: left;}
+
+@media screen and (max-width: 992px) { /* @media screen = transforma o site responsivel para multiplas configurações e tamanhos de monitores */
+	body {background-color: #F4F;}
+	.menu_pc {display: none;}
+	.menu_mobile {display: block;}
+}
+
+@media screen and (max-width: 600px) { /* observe que nesse caso estamos informando que se a largura da tela for até 600px ela tera certos valores, incluso uma cor e já acima falamos que se a tela tiver até 992px, ela terá outros valores ou configurações */
+	body {
+		background-color: olive;
+	}
+}
+
+/* EXERCÍCIO: */
+
+body { background-color: tan; }
+.menu_pc_exerc { display: block; } 
+.menu_mobile_exerc {display: none;}
+.menu_pc_exerc ul li {
+	list-style-type: none;
+	padding: 10px;
+	margin: 0px 10px;
+	background: linear-gradient(#8B8B00, #FFFF00);
+	border-radius: 15px; 
+	text-shadow: 2px 2px 4px #F5F; 
+	box-shadow: 10px 10px 5px grey;  
+}
+
+.pos_esq {float: left;}
+
+@media screen and (max-width: 992px) { 
+	body {background-color: #F4F;}
+	.menu_pc_exerc {display: none;}
+	.menu_mobile_exerc {display: block;}
+}
+
+@media screen and (max-width: 600px) { 
+	body {background-color: olive;}
+	.menu_mobile_exerc {
+		margin: 50px auto;
+		padding: 0px;
+		float: left;
+	}
+	.menu_mobile_exerc ul li {
+		list-style-type: none;
+		padding: 10px;
+		margin: 0px 0px;
+		background: #FFFF00;
+		text-align: center;
+	}
+	.logo {
+		height: 80px;
+		margin: 0px auto;
+		float: none;
+	}
+	.texto-cabe {
+		margin: 0px auto;
+		color: aqua;
+		text-align: center;
+	} 
+
+}
+

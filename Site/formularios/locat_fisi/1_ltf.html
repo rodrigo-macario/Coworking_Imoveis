@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    
+  	<head>
+       
+        <meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/estilo3.css" />
+        <title>LOCATÁRIO (PESSOA FÍSICA)</title>
+    </head>
+    
+    <body>
+       
+        <strong><h1>LOCATÁRIO (PESSOA FÍSICA)</h1></strong>
+        	
+        		<text>
+        			Campos com * (asterisco) são obrigatórios.
+        			<br/>
+        			Tecla "Tab" pula para o próximo campo.
+        			<br/><br/>
+        			<strong>Etapa 1 de 5</strong>	
+        			<br/><br/><br/>	
+        		</text>
+       
+        <form method="GET" action="../../Formularios Joao/resultados.html">
+        	<fieldset>
+        		<legend><strong>DADOS PESSOAIS</strong></legend>
+        				        	        
+		        	<br/>
+        		
+        			<label for="nomeDadosPessoais">Nome*</label> 
+        			<input type="text" name="txtNome" required/>
+        			     			        		
+        			<label for="sobrenomeDadosPessoais">Sobrenome*</label>
+        			<input type="text" name="sobrenomeDadosPessoais" required placeholder="Completo"/>
+        			
+	  		  		<br/><br/>
+        		
+	      		    <label for="emailDadosPessoais">E-mail*</label>
+        			<input type="email" name="emailDadosPessoais" id="emailDadosPessoais" required/>
+        		
+        			<br/><br/>
+        		
+         			<label for="celularDadosPessoais">Celular com DDD*</label>
+        			<input type="telefone" name="celularDadosPessoais" id="celularDadosPessoais" min="0" required placeholder="Ideal com WhatsApp"/>
+        			
+            	  	<label for="telefoneDadosPessoais">Telefone</label>
+        			<input type="telefone" name="telefoneDadosPessoais" id="telefoneDadosPessoais" min="0"/>
+        		
+        			<br/><br/>
+        		
+        			<label for="cpfDadosPessoais">CPF*</label>
+        			<input type="number" name="cpfDadosPessoais" id="cpfDadosPessoais" min="0" required/>
+   
+        			<label for="identidadeDadosPessoais">  Identidade*</label>
+        			<input type="number" name="identidadeDadosPessoais" id="identidadeDadosPessoais" min="0" required/>
+        		
+        			<label for="orgaoEmissorDadosPessoais">Orgão emissor*</label> 
+        			<input type="text" name="orgaoEmissorDadosPessoais" required />
+        			
+        			<br/><br/>
+
+        			<label for="dataNascimentoDadosPessoais">Data de nascimento*</label>
+        			<input type="date" name="dataNascimentoDadosPessoais" id="dataNascimentoDadosPessoais" required/>
+                
+            	    <label for="txtNA">Nacionalidade*</label> 
+        			<input type="text" name="txtNA" required/>
+             
+            	    <br/><br/>
+
+            	    <label>Estado Civil*</label>
+            	    <input type="radio" name="rblEstadoCivil" id="rblEstadoCivilSolteiro" value="1" required/>
+            	    <label for="rblEstadoCivilSolteiro">Solteiro(a)</label>
+           	 		<input type="radio" name="rblEstadoCivil" id="rblEstadoCivilCasado" value="2" required/>
+           			<label for="rblEstadoCivilCasado">Casado(a)</label>
+            	    <input type="radio" name="rblEstadoCivil" id="rblEstadoCivilDivorciado" value="3" required/>
+            	    <label for="rblEstadoCivilDivorciado">Divorciado(a) judicialmente</label>
+             		<input type="radio" name="rblEstadoCivil" id="rblEstadoCivilViuvo" value="4" required/>
+           		    <label for="rblEstadoCivilViuvo">Viúvo</label>
+
+       				<br/><br/>
+       		
+       		</fieldset>
+       		
+       		
+       		
+       		<br/>
+        
+        	<input type="submit" name="btnGravar" value="Continuar">
+        
+        </form>
+   
+    </body>
+</html>

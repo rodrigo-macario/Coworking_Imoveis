@@ -1,0 +1,62 @@
+/* CSS Document */
+
+form {
+	border: 3px solid #F1F1F1;
+}
+
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block; /* limitou a caixa do box a nao passar 
+	da linha de outra div, pq o normal é a borda do box se sobrepor 
+	sobre a linha de outra div */
+	border: 1px solid #ccc;
+	box-sizing: border-box; /* tipo do box, tem varios */
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+.cancelbtn {
+	width: auto;
+	padding: 10px 18px;
+	background-color: #F44336;
+}
+
+.imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+	background-color: bisque;
+}
+
+img.avatar {
+	width: 40%;
+	border-radius: 50%; /* faz a imagem ficar arredonda (sua borda)
+	se colocar menos tipo 25% vai arredondar apenas as bordas do 
+	quadrado ou da imagem quadrada */
+}
+
+.container{
+	padding: 16px;
+}
+
+span.psw{
+	float: right;
+	padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+	span.psw{
+		display: block;
+		float: none;
+	}
+	.cancelbtn{
+		width: 100%;
+	}
+}
+
+
+
+

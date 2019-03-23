@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+    
+  	<head>
+        <title>LOCATÁRIO (PESSOA FÍSICA)</title>
+        
+        <h1><strong>LOCATÁRIO (PESSOA FÍSICA)</strong></h1>
+        	
+        		<text>
+        			Campos com * (asterisco) são obrigatórios.
+        			<br/><br/>
+        			Dica: use a tecla "Tab" para pular para o próximo campo.
+        			<br/><br/>
+        			Quanto mais rápido responder é melhor. Teremos mais chances para aprovarmos a sua ficha junto ao proprietário do imóvel.  
+        			<br/><br/><br/>		
+        		</text>
+        
+    </head>
+    
+    <body>
+        <form method="GET" action="resultados.html">
+        	     	
+        	
+        	<fieldset>
+        		<legend><strong>DADOS PESSOAIS:</strong></legend>
+        				        	        
+		        	<br/>
+        		
+        			<label for="txtNome">Nome:</label> 
+        			<input type="text" name="txtNome" />
+        		
+        			<label for="txtSobrenome">Sobrenome (Completo):</label>
+        			<input type="text" name="txtSobrenome" />
+        		
+      		  		<br/><br/>
+        		
+	      		    <label for="txtEmail">E-mail:</label>
+        			<input type="email" name="txtEmail" id="txtEmail" />
+        		
+        			<br/><br/>
+        		
+         			<label for="txtWPP">Celular com DDD (preferência com WhatsApp):</label>
+        			<input type="number" name="txtWPP" id="txtWPP" />       						   				   
+      
+            	  	<label for="txtTELL">Telefone:</label>
+        			<input type="number" name="txtTELL" id="txtTELL" />
+        		
+        			<br/><br/>
+        		
+        			<label for="txtCPF">CPF:</label>
+        			<input type="number" name="txtCPF" id="txtCPF" />
+   
+        			<label for="txtID">  Identidade:</label>
+        			<input type="number" name="txtID" id="txtID" />
+        		
+        			<label for="txtOEID">Orgão emissor:</label> 
+        			<input type="text" name="txtOEID" />
+        			
+        			<br/><br/>
+
+        			<label for="txtDtNascimento">Data de nascimento:</label>
+        			<input type="datetime-local" name="txtDtNascimento" id="txtDtNascimento" />
+                
+            	    <label for="txtNA">Nacionalidade:</label> 
+        			<input type="text" name="txtNA" />
+             
+            	    <br/><br/>
+
+            	    <label>Estado Civil:</label>
+            	    <input type="radio" name="rblEstadoCivil" id="rblEstadoCivilSolteiro" value="1" />
+            	    <label for="rblEstadoCivilSolteiro">Solteiro(a)</label>
+           	 		<input type="radio" name="rblEstadoCivil" id="rblEstadoCivilCasado" value="2" />
+           			<label for="rblEstadoCivilCasado">Casado(a)</label>
+            	    <input type="radio" name="rblEstadoCivil" id="rblEstadoCivilDivorciado" value="3" />
+            	    <label for="rblEstadoCivilDivorciado">Divorciado(a) judicialmente</label>
+             		<input type="radio" name="rblEstadoCivil" id="rblEstadoCivilViuvo" value="4" />
+           		    <label for="rblEstadoCivilViuvo">Viúvo</label>
+                
+            	    <br/><br/>
+                
+            	    <label>Comunhão do casamento:</label>
+             		<input type="radio" name="rblUniversalDeBens" id="rblUniversalDeBens" value="5" />
+           		    <label for="rblUniversalDeBens">Universal de bens</label>
+               		<input type="radio" name="rblSeparacaoTotalDeBens" id="rblSeparacaoTotalDeBens" value="6" />
+            	    <label for="rblSeparacaoTotalDeBens">Separação total de bens</label> 
+             		<input type="radio" name="rblParcialDeBens" id="rblParcialDeBens" value="7" />
+            	    <label for="rblParcialDeBens">Parcial de bens</label>  
+            	    <input type="radio" name="rblParticipacaoFinalNosAquestos" id="rblParticipacaoFinalNosAquestos" value="8" />
+            	    <label for="rblParticipacaoFinalNosAquestos">Participação final nos aquestos</label> 
+
+                
+            	    <br/><br/>            
+
+        			<label for="txtQuem">Quem residirá no imóvel (citar todos):</label>
+        			<input type="text" name="txtQuem" />
+        		
+        			<br/><br/>
+
+        	</fieldset>
+        	
+        		<br/><br/>
+        		
+            <fieldset>
+        		<legend><strong>RENDA MENSAL:</strong></legend>                 
+        				        	        
+		        	<br/>
+		      		
+		      		<label for="valorRendaMensal">Valor Renda Mensal R$:</label> 
+        			<input type="number" name="valorRendaMensal" />
+        			
+        			<label for="origem1">Origem:</label>
+        			<input type="text" name="origem1" />
+        			
+        			<br/><br/>
+        			
+        			<label for="valorOutraRenda1">Valor Outra Renda (1) R$:</label>
+        			<input type="number" name="valorOutraRenda1" />
+        			
+        			<label for="origem2">Origem:</label>
+        			<input type="text" name="origem2" />
+		        	
+		        	<br/><br/>
+		        	
+		        	<label for="valorOutraRenda2">Valor Outra Renda (2) R$:</label>
+        			<input type="number" name="valorOutraRenda2" />
+	
+		        	<label for="origem3">Origem:</label>
+        			<input type="text" name="origem3" />
+        			
+        			<br/><br/>	       
+        			
+		    </fieldset>
+     		
+     			<br/><br/>	
+      		
+      		<fieldset>
+        		<legend><strong>BENS PRÓPRIOS:</strong></legend>
+        				        	        
+		        	<br/>
+		      		
+		      		<text>Carro 1:</text>
+       				
+        				<label for="carro1Marca">Marca:</label> 
+        				<input type="text" name="carro1Marca" />
+        				
+        				<label for="carro1Modelo">Modelo:</label> 
+        				<input type="text" name="carro1Modelo" />
+        				
+        				<label for="carro1Ano">Ano:</label> 
+        				<input type="text" name="carro1Ano" />
+        				
+        				<label for="carro1Placa">Placa:</label> 
+        				<input type="text" name="carro1Placa" />
+        				
+        				<label for="carro1Valor">Valor:</label> 
+        				<input type="text" name="carro1Valor" />
+        				
+        			<br/><br/>
+        				
+        			<text>Carro 2:</text>
+        			
+        				<label for="carro2Marca">Marca:</label> 
+        				<input type="text" name="carro2Marca" />
+        				
+        				<label for="carro2Modelo">Modelo:</label> 
+        				<input type="text" name="carro2Modelo" />
+        				
+        				<label for="carro2Ano">Ano:</label> 
+        				<input type="text" name="carro2Ano" />
+        				
+        				<label for="carro2Placa">Placa:</label> 
+        				<input type="text" name="carro2Placa" />
+        				
+        				<label for="carro2Valor">Valor:</label> 
+        				<input type="text" name="carro2Valor" />
+        				
+        			<br/><br/>
+        				
+        			<text>Moto:</text>
+        			
+        				<label for="motoMarca">Marca:</label> 
+        				<input type="text" name="motoMarca" />
+        				
+        				<label for="motoModelo">Modelo:</label> 
+        				<input type="text" name="motoModelo" />
+        				
+        				<label for="motoAno">Ano:</label> 
+        				<input type="text" name="motoAno" />
+        				
+        				<label for="motoPlaca">Placa:</label> 
+        				<input type="text" name="motoPlaca" />
+        				
+        				<label for="motoValor">Valor:</label> 
+        				<input type="text" name="motoValor" />
+        			
+        			<br/><br/>
+        				
+        			<text>Imóvel 1:</text>
+        			
+        				<label for="bemImovel1Tipo">Tipo (casa, apartamento, loja, sala, etc):</label> 
+        				<input type="text" name="bemImovel1Tipo" />
+        				
+        				<label for="bemImovel1Descricao">Descrição (tamanho, quartos, etc):</label> 
+        				<input type="text" name="bemImovel1Descricao" />
+        				
+        				<label for="bemImovel1Valor">Valor (aproximado) R$:</label> 
+        				<input type="text" name="bemImovel1Valor" />
+       				       				
+       				<br/><br/>
+        				
+        			<text>Imóvel 2:</text>
+        			
+        				<label for="bemImovel2Tipo">Tipo (casa, apartamento, loja, sala, etc):</label> 
+        				<input type="text" name="bemImovel2Tipo" />
+        				
+        				<label for="bemImovel2Descricao">Descrição (tamanho, quartos, etc):</label> 
+        				<input type="text" name="bemImovel2Descricao" />
+        				
+        				<label for="bemImovel2Valor">Valor (aproximado) R$:</label> 
+        				<input type="text" name="bemImovel2Valor" />       			
+        				       				
+        			<br/><br/>
+        			
+        			<text>Outro 1:</text>
+        			
+        				<label for="bemOutro1Descreva">Descreva:</label> 
+        				<input type="text" name="bemOutro1Descreva" />
+        				      				
+        				<label for="bemOutro1Valor">Valor (aproximado) R$:</label> 
+        				<input type="text" name="bemOutro1Valor" />  
+        			
+        			<br/><br/>	    
+        			
+        			<text>Outro 2:</text>
+        			
+        				<label for="bemOutro2Descreva">Descreva:</label> 
+        				<input type="text" name="bemOutro2Descreva" />
+        				      				
+        				<label for="bemOutro2Valor">Valor (aproximado) R$:</label> 
+        				<input type="text" name="bemOutro2Valor" />  
+        			
+        			<br/><br/>	     
+        			
+        			
+        			
+        			
+		     </fieldset>      		
+       		
+       		     <br/><br/>
+       		     
+       		 <fieldset>
+        		<legend><strong>DADOS PROFISSIONAIS:</strong></legend>
+        				        	        
+		        	<br/>
+		        	
+		        	<label>Sua Profissão:</label>
+            	    <input type="radio" name="rblContratadoComCarteiraAssinada" id="rblContratadoComCarteiraAssinada" value="1" />
+            	    <label for="rblContratadoComCarteiraAssinada">Contratado(a) com carteira assinada</label>
+           	 		<input type="radio" name="rblContratadoSemCarteiraAssinada" id="rblContratadoSemCarteiraAssinada" value="2" />
+           			<label for="rblContratadoSemCarteiraAssinada">Contratado(a) sem carteira assinada</label>
+            	    <input type="radio" name="rblAutonomo" id="rblAutonomo" value="3" />
+            	    <label for="rblAutonomo">Autônomo(a)</label>
+           		    <input type="radio" name="rblProfissionalLiberal" id="rblProfissionalLiberal" value="4" />
+            	    <label for="rblProfissionalLiberal">Profissional Liberal</label>
+             		<input type="radio" name="rblEmpresario" id="rblEmpresario" value="5" />
+           		    <label for="rblEmpresario">Empresário(a) (MEI)</label>
+		            <input type="radio" name="rblEmpresario1" id="rblEmpresario1" value="6" />
+           		    <label for="rblEmpresario1">Empresário(a) (EIRELI)</label>
+		        	<input type="radio" name="rblEmpresario2" id="rblEmpresario2" value="7" />
+           		    <label for="rblEmpresario2">Empresário(a) (LTDA)</label>
+           		    <input type="radio" name="outro" id="outro" value="8" />
+           		    <label for="outro">Outro</label>
+           		    
+           		    <br/><br/>
+           		    
+			</fieldset>
+       		
+       			<br/><br/>
+        		
+        	<fieldset>
+        		<legend><strong>RESIDÊNCIA ATUAL:</strong></legend>
+        				        	        
+		        	<br/>
+
+	        		<!-- começar pelo CEP pq se preencher informará e preencherá nome da rua automaticamente + bairro + cidade -->
+		        	<label for="cepResidencial">CEP:</label> 
+        			<input type="number" name="cepResidencial" />
+        			
+        			<label for="cidadeResidencial">Cidade:</label>
+        			<input type="text" name="cidadeResidencial" />
+        			
+        			<label for="bairroResidencial">Bairro:</label>
+        			<input type="text" name="bairroResidencial" />
+		        	
+		        	<br/><br/>
+		        	
+		        	<label for="logradouroResidencial">Logradouro (Rua, Av., Praça, etc):</label>
+        			<input type="text" name="logradouroResidencial" />
+        			
+        			<label for="numeroEndereçoResidencial">Número:</label>
+        			<input type="text" name="numeroEndereçoResidencial" />
+       				       				
+       				<label for="complementoEndereçoResidencial">Complemento (Bloco, Unidade, etc):</label>
+        			<input type="text" name="complementoEndereçoResidencial" />
+       				
+       				<br/><br/>
+
+		        	<label for="condominioResidencial">Condomínio (nome):</label>
+        			<input type="text" name="condominioResidencial" />
+      			        				        		        	        				        		        				        		        		
+       			    <label for="resideResidencial">Há quanto tempo reside nesse endereço:</label>
+        			<input type="text" name="resideResidencial" />
+        			        				        		        	        				        		        	
+		        	<br/><br/>
+		        	
+		        	<label>Paga aluguel:</label>
+             		<input type="radio" name="pagaAluguelSim" id="pagaAluguelSim" value="1" />
+           		    <label for="rblUniversalDeBens">Sim</label>
+           		    <input type="radio" name="pagaAluguelNao" id="pagaAluguelSim" value="2" />
+           		    <label for="rblUniversalDeBens">Não</label>
+               	
+               	
+        	</fieldset>
+              
+        	<br/>
+        	
+        	Preenchendo este formulário, você automaticamente declara serem verdadeiras as informações nele descritas, autoriza que se façam as confirmações necessárias e concorda com o direito do proprietário do imóvel de poder recusar a sua ficha sem precisar justificar.
+
+       		<br/>
+        
+        	<input type="submit" name="btnGravar" value="Gravar">
+        	<input type="reset" name="bntLimpar" id="Limpar" />
+        
+        </form>
+   
+    </body>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    
+  	<head>
+        <meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/estilo3.css" />
+        <title>LOCATÁRIO (PESSOA FÍSICA)</title>
+    </head>
+    
+    <body>
+        
+        <strong><h1>LOCATÁRIO (PESSOA FÍSICA)</h1></strong>
+        	
+        		<text>
+        			Campos com * (asterisco) são obrigatórios.
+        			<br/>
+        			Tecla "Tab" pula para o próximo campo.
+        			<br/><br/>
+        			<strong>Etapa 3 de 5</strong> /	<a href="../locat_p.fisica/locat_p.fisica/etapa1.html">Voltar</a>
+        			<br/><br/><br/>	
+        		</text>
+        
+        <form method="GET" action="../../Formularios Joao/resultados.html">
+      
+       		 <fieldset>
+      		 	<legend><strong>DOCUMENTOS DE PROPRIEDADE DO IMÓVEL EM NOME</strong> *</legend>
+      		       		           
+      		       	<br/>	           
+       		       		           
+           	    	<input type="radio" name="propriedResid" id="propriedResid1" value="propriedResid1" />
+            	    <label for="propriedResid1">De familiar</label>
+            	    
+            	    <input type="radio" name="propriedResid" id="propriedResid2" value="propriedResid2" />
+            	    <label for="propriedResid2">De amigo</label> 
+            	    
+            	    <input type="radio" name="propriedResid" id="propriedResid3" value="propriedResid3" />
+            	    <label for="propriedResid3">De conhecido</label>
+            	    
+            	    <input type="radio" name="propriedResid" id="propriedResid4" value="propriedResid4" />
+            	    <label for="propriedResid4">De desconhecido</label>
+            	    
+            	    <br/><br/>
+            	    
+            	    <input type="radio" name="propriedResid" id="propriedResid5" value="propriedResid5" />
+            	    <label for="propriedResid5">De terceiro que é próximo a um conhecido, amigo ou familiar meu</label>
+            	    
+             	    <br/><br/>
+             	    
+            	    <input type="radio" name="propriedResid" id="propriedResid7" value="propriedResid7" />
+            	    <label for="propriedResid7">Da empresa em que trabalho</label>
+            	    
+            	    <br/><br/>
+      		 </fieldset>
+       		 
+       		 	<br/><br/>
+       		 
+       		 <fieldset>
+      		 	<legend><strong>RESPOSÁVEIS PELA RESIDÊNCIA</strong></legend>
+           			
+        			<br/>
+        			
+        			<text><strong>PROPRIETÁRIO</strong> ou representante:</text>
+        			
+        			<br/><br/>
+        			
+        			<label for="nomeProprietarioResidencial">Nome*</label>
+        			<input type="text" name="nomeProprietarioResidencial" required placeholder="e sobrenome"/>
+		        
+		        	<label for="telefoneProprietarioResidencial">Celular*</label>
+        			<input type="telefone" name="telefoneProprietarioResidencial" required min="0" placeholder="ou telefone"/>
+        			
+        			<br/><br/>  
+		        	
+		        	<label for="emailProprietarioResidencial">E-mail</label>
+        			<input type="email" name="emailProprietarioResidencial" required /> 		        		
+ 		        	
+ 		        	<label for="valorAluguelProprietarioResidencial">Aluguel valor R$*</label>
+        			<input type="number" name="valorAluguelProprietarioResidencial" required min="0"/>  
+        			
+        			<br/><br/>
+        			
+        			<strong><text>LOCATÁRIO:</text></strong>
+        			
+        			<br/><br/>
+
+        			<label for="nomeProprietarioResidencial">Nome*</label>
+        			<input type="text" name="nomeProprietarioResidencial" required placeholder="e sobrenome"/>
+		        
+		        	<label for="telefoneProprietarioResidencial">Celular*</label>
+        			<input type="telefone" name="telefoneProprietarioResidencial" required min="0" placeholder="ou telefone"/>
+        			
+        			<br/><br/>  
+		        	
+		        	<label for="emailProprietarioResidencial">E-mail</label>
+        			<input type="email" name="emailProprietarioResidencial" required/> 	
+        				        		
+ 		        	<label for="parentescoResidiraComVoce1">Parentesco ou Proximidade*</label>
+        			<input type="text" name="parentescoResidiraComVoce1" required placeholder="amigo, tio, etc"/>  
+        			
+        			<br/><br/>     			       			        		            		       				
+         			     			       			        		            		       				
+       		 </fieldset>
+       		 
+       		 	<br/><br/>
+      		 
+      		 <fieldset>
+        		<legend><strong>RESIDÊNCIA ATUAL</strong></legend>
+        				        	        
+		        	<br/>
+
+	        		<!-- começar pelo CEP pq se preencher informará e preencherá nome da rua automaticamente + bairro + cidade -->
+		        	<label for="cepResidenciaAtual">CEP</label> 
+        			<input type="number" name="cepResidenciaAtual" min="0"/>
+        			
+        			<label for="cidadeResidenciaAtual">Cidade*</label>
+        			<input type="text" name="cidadeResidenciaAtual" required/>
+        			
+        			<label for="bairroResidenciaAtual">Bairro*</label>
+        			<input type="text" name="bairroResidenciaAtual" required/>
+		        	
+		        	<br/><br/>
+		        	
+		        	<label for="logradouroResidenciaAtual">Logradouro*</label>
+        			<input type="text" name="logradouroResidenciaAtual" required placeholder="rua, av., praça, etc"/>
+        			
+        			<label for="numeroResidenciaAtual">Número*</label>
+        			<input type="text" name="numeroResidenciaAtual" required/>
+       				       				
+       				<label for="complementoResidenciaAtual">Complemento</label>
+        			<input type="text" name="complementoResidenciaAtual" placeholder="bloco, unidade, etc"/>
+       				
+       				<br/><br/>
+
+		        	<label for="condominioResidenciaAtual">Condomínio</label>
+        			<input type="text" name="condominioResidenciaAtual" placeholder="nome"/>
+      			        				        		        	        				        		        				        		        		
+       			    <label for="resideDesdeResidenciaAtual">Reside desde*</label>
+        			<input type="text" name="resideDesdeResidenciaAtual" required placeholder="ano"/>
+        			        				        		        	        				        		        	
+		        	<br/><br/>		     
+               	
+        	 </fieldset>
+        	 
+        	 	<br/><br/>
+        	 
+        	 <fieldset>
+        		<legend><strong>REFERÊNCIAS BANCÁRIAS</strong></legend>
+       		    
+       		    	<br/>
+       		    	
+       		    	<label for="nomeBancoReferenciaBancaria">Banco*</label>
+        			<input type="text" name="nomeBancoReferenciaBancaria" required placeholder="nome"/>
+ 		        	
+ 		        	<label for="agenciaReferenciaBancaria">Agência*</label>
+        			<input type="number" name="agenciaReferenciaBancaria" min="0" required placeholder="número"/>       		    
+ 		        	
+ 		        	<label for="contaCorrenteReferenciaBancaria">Conta Corrente*</label>
+        			<input type="number" name="contaCorrenteReferenciaBancaria" min="0" required placeholder="número"/>  
+        			
+         		    <br/><br/>    		            		       		
+		        	
+		        	<label for="clienteDesdeReferenciaBancaria">Cliente desde</label>
+        			<input type="text" name="clienteDesdeReferenciaBancaria" placeholder="ano"/>
+        			
+ 		        	<label for="gerenteNomeReferenciaBancaria">Gerente</label>
+        			<input type="text" name="gerenteNomeReferenciaBancaria" placeholder="nome"/>
+ 		        	
+ 		        	<label for="telefoneBancoReferenciaBancaria">Telefone</label>
+        			<input type="text" name="telefoneBancoReferenciaBancaria" placeholder="gerente ou banco"/>
+       			      
+        			<br/><br/>
+        			     			       			        		            		       				
+       		 </fieldset>
+      
+       		 	<br/><br/>
+       		 
+       		 <fieldset>
+        		<legend><strong>HAVERÁ OUTRO LOCATÁRIO</strong> * (constará no contrato e assinará junto com você)</legend>
+        				        	        
+		        	<br/>
+		        	
+           	 		<input type="radio" name="maisLocat" id="maisLocat1" value="Não. Serei único locatário"/>
+           			<label for="maisLocat1">Não. Serei único locatário</label>
+          	    
+          	    	<input type="radio" name="maisLocat" id="maisLocat2" value="Não tenho certeza"/>
+           			<label for="maisLocat2">Não tenho certeza</label>
+         	    	
+         	    	<br/><br/>
+          	    	          	    	
+           	    	<input type="radio" name="maisLocat" id="maisLocat3" value="Sim, mais 1 pessoa"/>
+            	    <label for="maisLocat3">Sim, mais 1 pessoa</label>
+            	    
+            	    <input type="radio" name="maisLocat" id="maisLocat4" value="Sim, mais 2 pessoas"/>
+            	    <label for="maisLocat4">Sim, mais 2 pessoas</label>
+            	    
+            	    <input type="radio" name="maisLocat" id="maisLocat5" value="Sim, mais 3 pessoas"/>
+            	    <label for="maisLocat5">Sim, mais 3 pessoas</label>
+           		    
+           		    <br/><br/>
+           		    
+			 </fieldset>
+ 
+       			<br/>
+        
+        	<input type="submit" name="btnGravar" value="Continuar">
+        
+        </form>
+   
+    </body>
+</html>

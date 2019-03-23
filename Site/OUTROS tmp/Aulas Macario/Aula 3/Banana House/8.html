@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <form method="GET" action="resultados.html">
+        	<fieldset>
+        		<legend>Cadastro de pessoa física</legend>
+        		
+        		<label for="txtID">ID:</label>
+        		<input type="number" name="txtID" id="txtID" />
+        		
+        		<label for="txtNome">Nome:</label> 
+        		<input type="text" name="txtNome" />
+
+        		<label for="txtDtNascimento">Data de nascimento:</label>
+        		<input type="datetime-local" name="txtDtNascimento" id="txtDtNascimento" />
+
+        		<label for="txtEmail">E-mail:</label>
+        		<input type="email" name="txtEmail" id="txtEmail" />
+
+        		<label for="txxSenha">Senha:</label>
+        		<input type="password" name="txtSenha" id="txtSenha" />
+
+                <label><strong>Sexo:</strong></label>
+                <input type="radio" name="rblSexo" id="rblSexoMasculino"
+                 value="M" checked="checked" />
+                <label for="rblSexoMasculino">Marculino</label>
+                <input type="radio" name="rblSexo" id="rblSexoFeminino" value="F" />
+                <label for="rblSexoFeminino">Feminino</labal>
+
+                <label><strong>Estado Civil:</strong></label>
+                <input type="radio" name="rblEstadoCivil" id="rblEstadoCivilSolteiro" value="1" checked="checked">
+                <label for="rblEstadoCivilSolteiro">Solteiro</label>
+                <input type="radio" name="rblEstadoCivil" id="rblEstadoCivilCasado" value="2">
+                <label for="rblEstadoCivilCasado">Casado</label>
+                <input type="radio" name="rblEstadoCivil" id="rblEstadoCivilDivorciado" value="3" />
+                <label for="rblEstadoCivilDivorciado">Divorciado</label>
+                <input type="radio" name="rblEstadoCivil" id="rblEstadoCivilViuvo">Viúvo</label>
+                <label for="rblEstadoCivilViuvo">Viúvo</label>
+
+                <input type="checkbox" name="chkUniaoEstavel" id="chkUniaoEstavel" value="U" /><label for="chkUniaoEstavel">Possui União estável?</label>
+                <input type="checkbox" name="chkUniaoInstavel" id="chkUniaoInstavel" value="I" /><label for="chkUniaoInstavel">Possui União instável?</label>
+
+        		<input type="submit" name="btnGravar" value="Gravar">
+        		<input type="reset" name="bntLimpar" id="Limpar" />
+        	</fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+* {
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	font-size: 12px;
+	color: #3F3F3F;
+	background: #D4D4D4;
+}
+
+/* "a {" abaixo se refere a tag <a> */
+a {
+	text-decoration: none;
+	color: #007B06;
+}
+#Logo {
+	height: 100px;
+	border: solid 1px #FF0004;
+}
+
+.texto {
+	font-family: Lucida Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+	font-size: 16px;
+	color: #00027B;
+}
+
+/* .texto2 abaixo é a ID do texto a receber as propriedades citadas abaixo, daí tem que por o "." (ponto) sempre na frente da ID, ou "." vem sempre a frente da class */
+.texto2 {
+	font-family: Lucida Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+	font-size: 16px;
+	color: chocolate;
+}
+

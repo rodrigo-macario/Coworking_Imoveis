@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <form method="GET" action="resultados.html">
+        	<fieldset>
+        		<legend><strong>ETC:</strong></legend>
+        		
+        		<label for="txtID"><strong>ID:</strong></label>
+        		<input type="number" name="txtID" id="txtID" placeholder="Preemcha o ID" required tabindex="2" value="2" disabled/>
+        		
+        		<label for="txtNome"><strong>Nome</strong></label> 
+        		<input type="text" name="txtNome" placeholder="Preencha o Nome" required/>
+
+        		<label for="txtDtNascimento"><strong>Data de nascimento:</strong></label>
+        		<input type="date" name="txtDtNascimento" id="txtDtNascimento" required />
+
+        		<label for="txtEmail"><strong>E-mail:</strong></label>
+        		<input type="email" name="txtEmail" id="txtEmail" placeholder="Preencha o Email" required/>
+
+        		<label for="txxSenha"><strong>Senha:</strong></label>
+        		<input type="password" name="txtSenha" id="txtSenha" placeholder="Preencha a senha" required/>
+               	
+               	<label for="txxTelefone"><strong>Telefone:</strong></label>
+        		<input type="Telefone" name="txtTelefone" id="txtTelefone" required />
+        		
+        		<input type="hidden" id="txtOculto" name="Oculto" />
+        		
+        		<label><strong>Sexo:</strong></label>
+        		<input type="radio" id="rblSexoMasculino" name="rblSexo" value="M" required  />
+        		<label for="rblSexoMasculino">Masculino</label>
+        		<input type="radio" id="rblSexoFeminino" name="rblSexo" value="F" required  />
+        		<label for="rblSexoMasculino">Feminino</label>
+        		
+        		<label for="chkAceito"><strong>Aceito os Termos</strong></label>
+        		<input type="checkbox" id="chkAceito" name="chkAceito" checked><br/>
+        		
+        		<label for="selEstado"><strong>Estado:</strong></label>
+        		<select id="selEstado" name="selEstado">
+        		   <option value="RJ">Rio de Janeiro</option>
+        		   <option value="SP">São Paulo</option>
+        		   <option value="MG">Minas Gerais</option>
+        		   <option value="RS">Rio Grande do Sul</option>
+				</select>
+               
+                <label for="selCurso"><strong>Curso:</strong></label>
+        		<select id="selCurso" name="selCurso">
+                   <option value="1">Progamador Web</option>
+                   <option value="2" selected>Técnico em informática</option>
+			    </select>
+                
+                <label for"txtObservacao"><strong>Observação:</strong></label>
+                <textarea id="txtObservacao" name="txtObservacao" rows="1" cols="20">
+				</textarea>
+                
+                <label for"filArquivo"><strong>Upload de Arquivo:</strong></label>
+                <input type="file" id="filArquivo" name="filArquivo" />
+       		
+        		<input type="submit"  id="btnGravar" name="btnGravar" value="Gravar">
+        		<input type="reset" name="bntLimpar" id="Limpar" value="Limpar" />
+        		
+        	</fieldset>
+        </form>
+    </body>
+</html>
